@@ -27,23 +27,23 @@ The S3 integration can be deployed by clicking the link below and signing into y
 
 **BlockingPattern** - OPTIONAL, The pattern for lines blocking.
 
-**BufferSize** - The Coralogix logger buffer size, possible option is [134217728].
+**BufferSize** - The Coralogix logger buffer size, possible option is ``134217728``.
 
-**CoralogixRegion** - The Coralogix location region, possible options are [Europe, India, Singapore, US].
+**CoralogixRegion** - The Coralogix location region, possible options are ``Europe``, ``India``, ``Singapore``, ``US``.
 
-**Debug** - The Coralogix logger debug mode, possible options are [true, false].
+**Debug** - The Coralogix logger debug mode, possible options are ``true``, ``false``.
 
-**FunctionArchitecture** - Lambda function architecture, possible options are [x86_64, arm64].
+**FunctionArchitecture** - Lambda function architecture, possible options are ``x86_64``, ``arm64``.
 
-**FunctionMemorySize** - Do not change! This is the maximum allocated memory that this lambda can consume, the default is 1024.
+**FunctionMemorySize** - Do not change! This is the maximum allocated memory that this lambda can consume, the default is ``1024``.
 
-**FunctionTimeout** - Do not change! This is the maximum time in seconds the function may be allowed to run, the default is 300.
+**FunctionTimeout** - Do not change! This is the maximum time in seconds the function may be allowed to run, the default is ``300``.
 
-**NewlinePattern** - Do not change! This is the pattern for lines splitting, the default is [(?:\r\n|\r|\n)].
+**NewlinePattern** - Do not change! This is the pattern for lines splitting, the default is ``(?:\r\n|\r|\n)``.
 
 **PrivateKey** - Your Coralogix secret key. Can be found in your **Coralogix** account under `Settings` -> `Send your logs`. It is located in the upper left corner.
 
-**SamplingRate** - Send messages with specific rate, the default is [1].
+**SamplingRate** - Send messages with specific rate, the default is ``1``.
 
 **SubsystemName** - The subsystem name you wish to allocate to this log shipper.
 
