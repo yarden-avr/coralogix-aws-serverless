@@ -35,7 +35,7 @@ The S3 integration can be deployed by clicking the link below and signing into y
 
 **FunctionArchitecture** - Lambda function architecture, possible options are [x86_64, arm64].
 
-**FunctionMemorySize** - Do not change! This is the maximum allocated memory that this lambda may consume, the default is 1024.
+**FunctionMemorySize** - Do not change! This is the maximum allocated memory that this lambda can consume, the default is 1024.
 
 **FunctionTimeout** - Do not change! This is the maximum time in seconds the function may be allowed to run, the default is 300.
 
