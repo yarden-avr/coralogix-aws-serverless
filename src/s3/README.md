@@ -50,3 +50,8 @@ The S3 integration can be deployed by clicking the link below and signing into y
 * **S3KeyPrefix** - 	OPTIONAL, The prefix of the path within the log, this way you can choose if only part of your bucket is shipped.
 
 * **S3KeySuffix** - OPTIONAL, A filter for the suffix of the file path in your bucket.
+
+
+## License
+
+This project is licensed under the Apache-2.0 License.
