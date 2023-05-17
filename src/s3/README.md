@@ -31,6 +31,8 @@ The S3 integration can be deployed by clicking the link below and signing into y
 
 * **CoralogixRegion** - The Coralogix location region, possible options are ``Europe``, ``India``, ``Singapore``, ``US``.
 
+* **CustomDomain** - Your Custom URL for the Coralogix account. Ignore unless you have a custom URL. 
+
 * **Debug** - The Coralogix logger debug mode, possible options are ``true``, ``false``.
 
 * **FunctionArchitecture** - Lambda function architecture, possible options are ``x86_64``, ``arm64``.
